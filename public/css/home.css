@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../assets/fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway-Extra-Bold';
+    src: url('../assets/fonts/Raleway-ExtraBold.ttf');
+}
+
+.first-section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%,
+		rgba(255, 255, 255, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%), url('../assets/backgrounds/background1.jpg') no-repeat;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%,
+		rgba(255, 255, 255, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%), url('../assets/backgrounds/background1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+nav ul a {
+    font-size: 1.2em;
+    font-weight: bold;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+    color: black;
+}
+
+ul {
+    width: 80%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 75%;
+    margin-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.about {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.75) 0%,
+		rgba(255, 255, 255, 0.75) 59%, rgba(255, 255, 255, 0.75) 100%), url('../assets/backgrounds/background-senel.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+h6 {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Raleway-Extra-Bold';
+    letter-spacing: 0.3em;
+}
+
+p {
+    margin-top: 4%;
+    margin-bottom: 0;
+}
+
+p span {
+    display: block;
+    text-align: center;
+    font-family: 'Raleway-Bold';
+    font-size: 2em;
+}
