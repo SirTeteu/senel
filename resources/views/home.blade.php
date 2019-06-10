@@ -16,14 +16,27 @@
 	<body>
 		<div class="first-section">
 			<nav class="transparent z-depth-0">
-				<ul class="hide-on-med-and-down">
-					<li><a class="yellow-text" href="sass.html">Página Inicial</a></li>
+				<!-- navbar p/ versão desktop e tablet -->
+				<ul class="hide-on-small-only nav-tablet-desktop">
+					<li><a class="yellow-text text-darken-1" href="sass.html">Página Inicial</a></li>
+					<li><a href="badges.html">Galeria</a></li>
+					<li><a href="collapsible.html">Edições anteriores</a></li>
+					<li><a href="aladdin.html">Contato</a></li>
+				</ul>
+				<!-- sidenav p/ versão mobile -->
+				<a data-target="slide-out" class="hide-on-med-and-up sidenav-trigger">
+					<i class="sidenav-icon material-icons">menu</i>
+				</a>
+				<ul id="slide-out" class="sidenav">
+					<li><a class="nav-mobile-active" href="sass.html">Página Inicial</a></li>
 					<li><a href="badges.html">Galeria</a></li>
 					<li><a href="collapsible.html">Edições anteriores</a></li>
 					<li><a href="aladdin.html">Contato</a></li>
 				</ul>
 			</nav>
-			<img src="assets/logo/logo_completa.png">
+			<img class="hide-on-small-only" src="assets/logo/senel/logo_completa.png">
+			<img class="hide-on-med-and-up" src="assets/logo/senel/logo_mobile.png">
+			<p class="event-duration">DE 01 A 04 DE AGOSTO</p>
 		</div>
 
 		<section class="about">
@@ -40,7 +53,51 @@
 			</p>
 		</section>
 
+		<section class="programacao">
+			<h6>PROGRAMAÇÃO</h6>
+			<p><span>Em breve...</span></p>
+		</section>
+
+		<section class="apoiadores">
+			<h6 class="yellow-text text-darken-1">PATROCÍNIO</h6>
+			<div class="patrocinio">
+				<img src="assets/logo/patrocinio/solarize_logo.jpg" height="200">
+				<img src="assets/logo/patrocinio/ohmini_logo.png">
+			</div>
+
+			<h6 class="yellow-text text-darken-1">APOIO</h6>
+			<div class="apoio">
+				<img src="assets/logo/patrocinio/hashtag_logo.png" height="100">
+				<img src="assets/logo/patrocinio/me-salva_logo.png">
+			</div>
+
+			<h6 class="yellow-text text-darken-1">APOIO INSTITUCIONAL</h6>
+			<div class="institucional">
+				<img src="assets/logo/institucional/ufrj_logo.png" height="100">
+				<img src="assets/logo/institucional/engele_logo.png">
+				<img src="assets/logo/institucional/poli_logo.png">
+				<img src="assets/logo/institucional/coppe_logo.png" height="100">
+			</div>
+		</section>
+
+		<footer class="page-footer grey lighten-1">
+			<div class="footer-copyright grey lighten-1">
+        <div class="container">
+					<b class="black-text">© 2019 por SENEL UFRJ</b>
+					<a class="right" href="#"><img src="assets/icons/linkedin_icon.svg" height="30"></a>
+					<a class="instagram-icon right" href="#"><img src="assets/icons/instagram_icon.png" height="30"></a>
+					<a class="right" href="#"><img src="assets/icons/facebook_icon.png" height="30"></a>
+        </div>
+			</div>
+		</footer>
+
 		<!-- Import do js do Materialize -->
 		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function() {
+				var elems = document.querySelectorAll('.sidenav');
+				var instances = M.Sidenav.init(elems);
+			});
+		</script>
 	</body>
 </html>
