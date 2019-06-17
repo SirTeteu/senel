@@ -34,15 +34,28 @@ return [
     */
 
     'channels' => [
+
+        /* versão p/ desenvolvimento */
+        // 'stack' => [
+        //     'driver' => 'stack',
+        //     'channels' => ['daily'],
+        //     'ignore_exceptions' => false,
+        // ],
+
+        // 'single' => [
+        //     'driver' => 'single',
+        //     'path' => storage_path('logs/laravel.log'),
+        //     'level' => 'debug',
+        // ],
+
+        /* versão p/ produção */
+
         'stack' => [
             'driver' => 'stack',
-            'channels' => ['daily'],
-            'ignore_exceptions' => false,
+            'channels' => ['single'],
         ],
-
         'single' => [
-            'driver' => 'single',
-            'path' => storage_path('logs/laravel.log'),
+            'driver' => 'errorlog',
             'level' => 'debug',
         ],
 
