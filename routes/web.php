@@ -11,11 +11,16 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function() {
     return view('home');
 });
 
-// Route::get('/home', function() {
-//     return view('home');
-// });
+Route::get('/contato', function() {
+    return view('contato');
+});
+Route::post('/send-mail', 'ContactController@sendMail');
+
+Route::redirect('/', '/home');
+
+
 

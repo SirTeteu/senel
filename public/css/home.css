@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(246, 193, 53, 0.1);
+}
+
 @font-face {
     font-family: 'Raleway-Bold';
     src: url('../assets/fonts/Raleway-Bold.ttf');
@@ -11,7 +15,6 @@
 /* media query para tablets e desktops */
 @media (min-width: 601px) {
     .first-section {
-        padding-top: 5%;
         padding-bottom: 5%;
     }
 
@@ -124,35 +127,8 @@
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%,
 		rgba(255, 255, 255, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%), url('../assets/backgrounds/background1.jpg');
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
-nav ul a {
-    font-size: 1.2em;
-    font-weight: bold;
-    -webkit-transition: color 0.5s;
-    transition: color 0.5s;
-}
-
-nav ul a:hover {
-    background-color: rgba(0, 0, 0, 0) !important;
-    color: black;
-}
-
-.sidenav-icon {
-    font-size: 2.4rem !important;
-}
-
-.nav-mobile-active {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-.nav-tablet-desktop {
-    width: 80%;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    display: flex;
-    justify-content: space-evenly;
+    background-attachment: fixed;
+    padding-top: 5%;    
 }
 
 .first-section img {
@@ -201,8 +177,3 @@ section.programacao {
 section.apoiadores {
     padding-bottom: 0;
 }
-
-.instagram-icon {
-    margin-right: 1%;
-}
-
