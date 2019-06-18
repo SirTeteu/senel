@@ -14,6 +14,8 @@
 		<!-- Import dos icons do Font Awesome -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+		<link rel="icon" href="assets/icons/senel.ico">
+
 		<link type="text/css" rel="stylesheet" href="css/navbar.css">
 		<link type="text/css" rel="stylesheet" href="css/footer.css">
 		<link type="text/css" rel="stylesheet" href="css/contato.css">
