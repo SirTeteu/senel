@@ -27,7 +27,7 @@
 				<!-- navbar p/ versão desktop e tablet -->
 				<ul class="hide-on-small-only nav-tablet-desktop">
 					<li><a href="home">Página Inicial</a></li>
-					<li><a href="badges.html">Galeria</a></li>
+					<li><a href="galeria">Galeria</a></li>
 					<li><a href="collapsible.html">Edições anteriores</a></li>
 					<li><a class="yellow-text text-darken-1" href="contato">Contato</a></li>
 				</ul>
@@ -37,7 +37,7 @@
 				</a>
 				<ul id="slide-out" class="sidenav">
 					<li><a href="home">Página Inicial</a></li>
-					<li><a href="badges.html">Galeria</a></li>
+					<li><a href="galeria">Galeria</a></li>
 					<li><a href="collapsible.html">Edições anteriores</a></li>
 					<li><a class="nav-mobile-active" href="contato">Contato</a></li>
 				</ul>

@@ -23,7 +23,7 @@
 				<!-- navbar p/ versão desktop e tablet -->
 				<ul class="hide-on-small-only nav-tablet-desktop">
 					<li><a class="yellow-text text-darken-1" href="home">Página Inicial</a></li>
-					<li><a href="badges.html">Galeria</a></li>
+					<li><a href="galeria">Galeria</a></li>
 					<li><a href="collapsible.html">Edições anteriores</a></li>
 					<li><a href="contato">Contato</a></li>
 				</ul>
@@ -33,14 +33,14 @@
 				</a>
 				<ul id="slide-out" class="sidenav">
 					<li><a class="nav-mobile-active" href="home">Página Inicial</a></li>
-					<li><a href="badges.html">Galeria</a></li>
+					<li><a href="galeria">Galeria</a></li>
 					<li><a href="collapsible.html">Edições anteriores</a></li>
 					<li><a href="contato">Contato</a></li>
 				</ul>
 			</nav>
 			<img class="hide-on-small-only" src="assets/logo/senel/logo_completa.png">
 			<img class="hide-on-med-and-up" src="assets/logo/senel/logo_mobile.png">
-			<p class="event-duration">DE 19 A 23 DE AGOSTO</p>
+			<p class="event-duration">DE 19 A 23 DE AGOSTO DE 2019</p>
 		</div>
 
 		<section class="about">

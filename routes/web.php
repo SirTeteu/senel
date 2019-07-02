@@ -20,6 +20,10 @@ Route::get('/contato', function() {
 });
 Route::post('/send-mail', 'ContactController@sendMail');
 
+Route::get('/galeria', function() {
+    return view('galeria');
+});
+
 Route::redirect('/', '/home');
 
 

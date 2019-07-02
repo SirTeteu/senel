@@ -1,0 +1,102 @@
+body {
+	background-color: rgba(246, 193, 53, 0.1);
+}
+
+@font-face {
+	font-family: 'Raleway-Bold';
+	src: url('../assets/fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Raleway-Extra-Bold';
+	src: url('../assets/fonts/Raleway-ExtraBold.ttf');
+}
+
+/* media query para desktops */
+@media (min-width: 1024px) {
+	.carousel {
+		height: 665px !important;
+	}
+}
+
+/* media query para tablets e desktops */
+@media (min-width: 601px) {
+	.first-section {
+		padding-bottom: 7%;
+		background-size: cover;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 1023px) {
+	.carousel {
+		height: 765px !important;
+	}
+}
+
+/* media query only para mobile */
+@media (max-width: 600px) {
+	.first-section {
+		padding-bottom: 20%;
+		background-size: auto 100%;
+	}
+	
+	.carousel {
+		height: 560px;
+	}
+}
+
+.first-section {
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%,
+		rgba(255, 255, 255, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%), url('../assets/backgrounds/background1.jpg') no-repeat;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%,
+		rgba(255, 255, 255, 0.3) 59%, rgba(255, 255, 255, 0.3) 100%), url('../assets/backgrounds/background1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-top: 5%;
+}
+
+.carousel {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.row .col {
+    padding-left: 0;
+    padding-right: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin: 0;
+}
+
+#left-column, .col.s12, .col.m12 {
+	padding-left: 0.3rem;
+}
+
+#right-column {
+	padding-right: 0;
+}
+
+.middle-indicator {
+    position: relative !important;
+    top: 50%;
+}
+
+.middle-indicator-text {
+    font-size: 4.2rem;
+}
+
+a.middle-indicator-text {
+    color: white !important;
+}
+
+.content-indicator {
+    width: 64px;
+    height: 64px;
+    background: none;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.indicators, .hidden {
+    visibility: hidden;
+}
