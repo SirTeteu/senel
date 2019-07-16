@@ -12,7 +12,7 @@
 */
 
 Route::get('/home', function() {
-    return view('home');
+    return view('index');
 });
 
 Route::get('/contato', function() {
@@ -24,7 +24,7 @@ Route::get('/galeria', function() {
     return view('galeria');
 });
 
-Route::redirect('/', '/home');
+Route::redirect('/', '/index');
 
 
 

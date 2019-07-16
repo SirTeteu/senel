@@ -22,7 +22,7 @@
 			<nav class="transparent z-depth-0">
 				<!-- navbar p/ versão desktop e tablet -->
 				<ul class="hide-on-small-only nav-tablet-desktop">
-					<li><a class="yellow-text text-darken-1" href="home">Página Inicial</a></li>
+					<li><a class="yellow-text text-darken-1" href="index">Página Inicial</a></li>
 					<li><a href="galeria">Galeria</a></li>
 					<li><a href="collapsible.html">Edições anteriores</a></li>
 					<li><a href="contato">Contato</a></li>
@@ -32,7 +32,7 @@
 					<i class="sidenav-icon material-icons">menu</i>
 				</a>
 				<ul id="slide-out" class="sidenav">
-					<li><a class="nav-mobile-active" href="home">Página Inicial</a></li>
+					<li><a class="nav-mobile-active" href="index">Página Inicial</a></li>
 					<li><a href="galeria">Galeria</a></li>
 					<li><a href="collapsible.html">Edições anteriores</a></li>
 					<li><a href="contato">Contato</a></li>
